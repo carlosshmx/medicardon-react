@@ -1,0 +1,48 @@
+$blueMain : #0042AD;
+$blueText: #9db4ff;
+
+footer{
+    background-color: $blueMain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    section{
+         display: flex;
+        justify-content: space-between;
+        width: 50rem;
+        margin: 2rem;
+    }
+    .left_footer{
+        p{
+            color: $blueText;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            color: $blueText;
+            margin: 0.2rem 0;
+        }
+    }
+    .rigth_footer{
+        line-height: 0;
+        img{
+            width: 5rem;
+        }
+        color: white;
+        p{
+            color: white;
+        }
+    }
+    .creatorCredits{
+        p{
+             color: $blueText;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+$blueMain : #0042AD;
+
+div {
+  margin: 0;
+  padding: 0;
+}
+p{
+   margin: 10px;
+   padding: 0; 
+   color: $blueMain;
+}
+nav{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    .icons{
+        display: flex;
+        gap: 1rem;
+        svg{
+            color: $blueMain;
+            width: 40px;
+            height: 40px
+
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            line-height: 0;
+            
+        }
+    }
+}
+
+img{
+    width: 20rem;
+}
+
